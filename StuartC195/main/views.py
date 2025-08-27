@@ -3,7 +3,7 @@ from .models import RaceResult, Comment, Event
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login, logout, authenticate
-from django import forms
+from .forms import RaceResultForm
 
 
 # Home page
@@ -62,17 +62,10 @@ def add_comment(request, race_id):
     return render(request, 'add_comment.html', {'race': race})
 
 
-# Form for adding a race result
-class RaceResultForm(forms.ModelForm):
-    class Meta:
-        model = RaceResult
-        fields = ['race_name', 'date', 'position', 'car_used', 'notes']
-
-
 # Add Race Result page (only for logged-in users)
 @login_required
 def add_race(request):
-    if request.method == 'POST':
+    if request.method == "POST":
         form = RaceResultForm(request.POST)
         if form.is_valid():
             form.save()

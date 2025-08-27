@@ -1,7 +1,7 @@
 # Racing Blog
 
 ## Description
-Racing Blog is a Django-powered web application that allows motorsport enthusiasts to explore, share, and discuss racing-related content. It features user authentication, blog posts about races and drivers, and event listings.
+Racing Blog is a Django-powered web application that allows motorsport enthusiasts to explore, share, and discuss racing-related content on my career. It features user authentication, blog posts about races, and event listings.
 
 Developed as my Django Capstone project, this app demonstrates full-stack development skills using Django, Python, HTML, CSS, and a database backend.
 

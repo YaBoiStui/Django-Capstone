@@ -1,5 +1,9 @@
 # Racing Blog
 
+## Repository
+[View on GitHub](https://github.com/YaBoiStui/Django-Capstone)
+
+
 ## Description
 Racing Blog is a Django-powered web application that allows motorsport enthusiasts to explore, share, and discuss racing-related content on my career. It features user authentication, blog posts about races, and event listings.
 

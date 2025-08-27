@@ -30,17 +30,12 @@ Developed as my Django Capstone project, this app demonstrates full-stack develo
    venv\Scripts\activate      # On Windows
    ```
 
-3. **Install dependencies**  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Apply database migrations**  
+3. **Apply database migrations**  
    ```bash
    python manage.py migrate
    ```
 
-5. **Run the development server**  
+4. **Run the development server**  
    ```bash
    python manage.py runserver
    ```

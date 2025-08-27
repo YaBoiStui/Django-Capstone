@@ -49,7 +49,6 @@ Developed as my Django Capstone project, this app demonstrates full-stack develo
 
 ## Screenshots
 
-*(Place your screenshots here in a `screenshots/` directory)*
 
 - **Homepage**  
   ![Homepage](screenshots/homepage.png)
